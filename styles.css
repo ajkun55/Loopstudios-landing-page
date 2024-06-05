@@ -248,9 +248,6 @@ button:hover{
         grid-template-rows: repeat(2, 1fr);
         gap: 30px;
     }
-    .pic{
-        margin: 0;
-    }
     .show-content{
         display: flex;
         position: relative;
@@ -305,6 +302,7 @@ button:hover{
     .pic{
         height: 450px;
         position: relative;
+        margin: 0;
         h3{
            padding: 0;
            position: absolute;
