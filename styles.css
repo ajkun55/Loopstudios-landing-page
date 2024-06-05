@@ -298,14 +298,15 @@ button:hover{
 
     .pic{
         height: 450px;
-        position: relative;
         margin: 0;
         h3{
            padding: 0;
-           position: absolute;
-           bottom: 10%;
+           position: relative;
            left: 10%;
-           max-width: 6rem;
+           top: 75%;
+           width: 60%;
+           font-size: 1.8rem;
+           text-align: start;
         }
     }
 
@@ -359,7 +360,7 @@ footer{
     }
 }
 
-a::after{
+.links a::after, li a::after {
     content: '';
     height: 100%;
     width: 2rem;
